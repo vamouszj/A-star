@@ -1,0 +1,44 @@
+*{
+	margin: 0;
+	padding:0;
+}
+li{
+	list-style: none;
+}
+#oUl{
+	height: auto;
+	overflow: hidden;
+	margin: 40px auto;
+	border: 1px solid #666;
+	border-bottom: none;
+	border-right: none;
+}
+#oUl li{
+	border: 1px solid #000;
+	border-top: none;
+	border-left: none;
+	float: left;
+}
+#oUl li.star{
+	background: red;
+}
+#oUl li.end{
+	background: green;
+}
+#oUl li.obst{
+	background: blue;
+}
+#input1 {
+	display: block;
+	border: none;
+	outline: none;
+	width: 100px;
+	height: 30px;
+	font-family: '微软雅黑';
+	font-size: 14px;
+	background: blue;
+	color: #fff;
+	margin:0 auto;
+	cursor: pointer;
+	border-radius: 2px;
+}
